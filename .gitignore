@@ -3,3 +3,5 @@
 /test1.iml
 /target/
 *.jar
+/src/main/resources/
+.gitignore
