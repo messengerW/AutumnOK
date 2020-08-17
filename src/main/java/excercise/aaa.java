@@ -154,7 +154,31 @@ public class aaa {
 //        System.out.println("arr:" + Arrays.asList(arr));
 //        System.out.println("list:" + list.toArray());
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        ArrayList<Object> arrayList = new ArrayList<>();
+
+        String s1 = "111==";
+        String s2 = "111==";
+
+        System.out.println(s1.equals(s2));
+
+        String str1 = new String("111");
+        String str2 = new String("111");
+        System.out.println(str1.equals(str2));
+
+        int a = 1;
+        Integer b = new Integer(2);
+
+        arrayList.add(a);
+        arrayList.add(b);
+        arrayList.add(3);
+
+        arrayList.add("sss");
+
+        for (Object obj : arrayList)
+            System.out.println(obj.toString());
+
+
+
     }
 }
 
